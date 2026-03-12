@@ -1313,8 +1313,8 @@ export const questionSets = [
     
     'Authentication',
     'Cost',
-    'Communication'
-    'Flexibility',
+    'Communication', 
+    'Flexibility' 
   ],
   correctAnswer: 'Flexibility',
   explanation: 'Flexibility increases productivity of the organization.'
