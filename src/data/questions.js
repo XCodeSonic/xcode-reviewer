@@ -3,7 +3,7 @@ export const questionSets = [
   {
   id: 'Platform Tech 2 MIDTERM',
   subject: 'Sir Cyron',
-  description: 'Practice questions for Lecture 1: Introduction to E-Commerce and E-Business',
+  description: 'Practice Questions MidTerm',
   icon: '💻',
   questions: [
 
