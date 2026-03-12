@@ -30,8 +30,8 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Which of the following describes E-business?',
     choices: [
-      'The use of information and communication technologies to perform business functions',
       'Selling products only in stores',
+      'The use of information and communication technologies to perform business functions', 
       'Buying raw materials manually',
       'Manual business transactions'
     ],
@@ -44,9 +44,9 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'The series of processes by which a company turns raw materials into finished goods and services is called:',
     choices: [
-      'Value chain',
       'Electronic business',
       'Web services',
+      'Value chain',
       'Electronic data interchange'
     ],
     correctAnswer: 'Value chain',
@@ -58,10 +58,10 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'The sequence of value-adding activities that extend beyond the company boundaries is called:',
     choices: [
-      'Extended value chain',
       'Business model',
       'Distributor model',
-      'Advertisement model'
+      'Advertisement model', 
+      'Extended value chain'
     ],
     correctAnswer: 'Extended value chain',
     explanation: 'Extended value chain includes activities beyond the company boundaries.'
@@ -100,8 +100,9 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Which benefit of doing business electronically focuses on reducing mistakes and improving quality?',
     choices: [
-      'Reducing Errors and Improving Quality',
+      
       'Increasing the Speed of Business',
+      'Reducing Errors and Improving Quality',
       'Doing Business Any Time Anywhere',
       'Collaborating With Suppliers'
     ],
@@ -114,9 +115,10 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Which of the following is an example of collaborating with suppliers?',
     choices: [
-      'Joint product design',
+
       'Currency conversion',
       'Web portals',
+            'Joint product design',
       'Click-through advertising'
     ],
     correctAnswer: 'Joint product design',
@@ -128,10 +130,11 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Companies that sold only through the Web channel in the initial wave of B2C e-commerce are called:',
     choices: [
-      'Pure play',
+      
       'Click-and-mortar',
       'Distributor',
-      'Aggregator'
+      'Aggregator', 
+      'Pure play'
     ],
     correctAnswer: 'Pure play',
     explanation: 'Pure play companies sold only through the Web channel.'
@@ -151,10 +154,11 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Direct sales through Web channel may jeopardize relationships with distributors. This is called:',
     choices: [
-      'Channel Conflict',
+      
       'Value Chain',
       'Producer Model',
-      'Infomediary Model'
+      'Infomediary Model', 
+      'Channel Conflict'
     ],
     correctAnswer: 'Channel Conflict',
     explanation: 'Channel conflict happens when direct web sales threaten distributor relationships.'
@@ -179,8 +183,9 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Which model earns revenue by selling the products that it builds, manufactures, grows, or creates the services it provides?',
     choices: [
-      'Producer model',
+      
       'Distributor model',
+      'Producer model',
       'Aggregator model',
       'Infomediary model'
     ],
@@ -193,8 +198,9 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Which model buys in bulk and resells in smaller quantities?',
     choices: [
-      'Distributor model',
+      
       'Producer model',
+      'Distributor model',
       'Aggregator model',
       'Advertisement revenue model'
     ],
@@ -207,10 +213,12 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Which model adds value by providing one-stop shopping?',
     choices: [
-      'Aggregator model',
+      
       'Producer model',
       'Distributor model',
+      'Aggregator model',
       'Infomediary model'
+      
     ],
     correctAnswer: 'Aggregator model',
     explanation: 'Aggregator adds value by providing one-stop shopping.'
@@ -249,10 +257,12 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Which model earns revenue by collecting and selling information?',
     choices: [
-      'Infomediary models',
+      
       'Producer models',
       'Distributor models',
+      'Infomediary models',
       'Aggregator models'
+      
     ],
     correctAnswer: 'Infomediary models',
     explanation: 'Infomediary models collect and sell information.'
@@ -263,9 +273,10 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Electronic Data Interchange refers to:',
     choices: [
-      'Automated exchange of electronic documents between computers at different companies',
+      
       'Manual sending of documents',
       'Email communication',
+      'Automated exchange of electronic documents between computers at different companies',
       'Website development'
     ],
     correctAnswer: 'Automated exchange of electronic documents between computers at different companies',
@@ -277,9 +288,10 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'XML adds tags to Web page so that data on page can be processed by:',
     choices: [
-      'Computer',
+      
       'Employees',
       'Managers',
+      'Computer',
       'Customers'
     ],
     correctAnswer: 'Computer',
@@ -291,8 +303,9 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Software that accepts commands over the Web and optionally returns results over the Web is called:',
     choices: [
-      'Web Services',
+      
       'EDI',
+      'Web Services',
       'XML',
       'Web Forms'
     ],
@@ -305,9 +318,10 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Which is an issue in doing business internationally?',
     choices: [
-      'Language choice on Web page selection',
+      
       'Improving workflow',
       'Reducing errors',
+      'Language choice on Web page selection',
       'Joint product design'
     ],
     correctAnswer: 'Language choice on Web page selection',
@@ -319,8 +333,9 @@ export const questionSets = [
     type: 'multiple-choice',
     question: 'Which is required for security management in e-commerce?',
     choices: [
-      'Need to encrypt transactions',
+
       'Manual verification',
+            'Need to encrypt transactions',
       'Paper documents',
       'Offline records'
     ],
@@ -331,9 +346,9 @@ export const questionSets = [
   {
     id: 25,
     type: 'multiple-choice',
-    question: 'Weak security at partners can compromise your own security.',
+    question: 'Weak security at partners cannot compromise your own security.',
     choices: ['True', 'False'],
-    correctAnswer: 'True',
+    correctAnswer: 'False',
     explanation: 'Partner security weaknesses can affect your system security.'
   },
 
@@ -381,9 +396,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which type of ecommerce business model sells directly to end-users?',
   choices: [
-    'B2C (Business-to-consumer)',
+    
     'B2B (Business-to-business)',
     'B2G (Business-to-government)',
+    'B2C (Business-to-consumer)',
     'C2C (Consumer-to-consumer)'
   ],
   correctAnswer: 'B2C (Business-to-consumer)',
@@ -395,8 +411,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which ecommerce business model involves selling products or services to another business?',
   choices: [
-    'B2B (Business-to-business)',
+    
     'C2C (Consumer-to-consumer)',
+    'B2B (Business-to-business)',
     'D2C (Direct-to-consumer)',
     'C2B (Consumer-to-business)'
   ],
@@ -409,10 +426,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which business model is where a company partners with another to sell its product or service to an end customer?',
   choices: [
-    'B2B2C (Business-to-business-to-consumer)',
+    
     'B2C (Business-to-consumer)',
     'C2B (Consumer-to-business)',
-    'B2G (Business-to-government)'
+    'B2G (Business-to-government)', 
+    'B2B2C (Business-to-business-to-consumer)', 
   ],
   correctAnswer: 'B2B2C (Business-to-business-to-consumer)',
   explanation: 'B2B2C is when a company partners with another to sell its product or service to an end customer.'
@@ -423,8 +441,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which ecommerce model sells to government entities?',
   choices: [
-    'B2G (Business-to-government)',
+    
     'B2C (Business-to-consumer)',
+    'B2G (Business-to-government)',
     'C2C (Consumer-to-consumer)',
     'D2C (Direct-to-consumer)'
   ],
@@ -437,8 +456,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which model enables individuals to sell goods and services to companies through ecommerce platforms?',
   choices: [
-    'C2B (Consumer-to-business)',
+    
     'B2C (Business-to-consumer)',
+    'C2B (Consumer-to-business)',
     'B2B (Business-to-business)',
     'D2C (Direct-to-consumer)'
   ],
@@ -465,9 +485,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which ecommerce business model connects consumers to exchange goods and services?',
   choices: [
-    'C2C (Consumer-to-consumer)',
+    
     'B2C (Business-to-consumer)',
     'B2G (Business-to-government)',
+    'C2C (Consumer-to-consumer)',
     'B2B (Business-to-business)'
   ],
   correctAnswer: 'C2C (Consumer-to-consumer)',
@@ -479,10 +500,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which technology offers numerous e-business opportunities and streamlines business processes?',
   choices: [
-    'Cloud technology',
+    
     'Native advertising',
     'Remarketing',
-    'Mobile apps'
+    'Mobile apps', 
+    'Cloud technology', 
   ],
   correctAnswer: 'Cloud technology',
   explanation: 'Cloud technology offers numerous e-business opportunities.'
@@ -493,8 +515,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which process involves planning, executing, and overseeing all activities designed to achieve online business goals?',
   choices: [
-    'Ecommerce management',
+    
     'Inventory management',
+    'Ecommerce management',
     'Order fulfillment',
     'Customer relationship management'
   ],
@@ -507,10 +530,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which key component involves monitoring product flow, stock levels, demand, and availability?',
   choices: [
-    'Inventory management',
+    
     'Customer acquisition',
     'Payment processing',
-    'Website performance'
+    'Website performance', 
+    'Inventory management', 
   ],
   correctAnswer: 'Inventory management',
   explanation: 'Inventory management monitors product flow, stock levels, demand, and availability.'
@@ -521,8 +545,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which component involves processing and delivering customer orders?',
   choices: [
-    'Order fulfillment',
+    
     'Inventory management',
+    'Order fulfillment',
     'Customer retention',
     'Marketing strategies'
   ],
@@ -535,9 +560,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which component involves technology and strategies for managing customer interactions?',
   choices: [
-    'Customer Relationship Management (CRM)',
+    
     'Inventory management',
     'Payment processing',
+    'Customer Relationship Management (CRM)',
     'Order fulfillment'
   ],
   correctAnswer: 'Customer Relationship Management (CRM)',
@@ -549,9 +575,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which component ensures a secure and efficient process for transactions between customers and merchants?',
   choices: [
-    'Payment processing and security',
+    
     'Inventory management',
     'Customer acquisition',
+    'Payment processing and security',
     'Order fulfillment'
   ],
   correctAnswer: 'Payment processing and security',
@@ -563,8 +590,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which component ensures fast, user-friendly, and mobile-responsive performance?',
   choices: [
-    'Website performance and optimization',
+
     'Inventory management',
+        'Website performance and optimization',
     'Customer retention',
     'Growth'
   ],
@@ -675,9 +703,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'E-commerce encompasses various market segments and devices like:',
   choices: [
-    'computers, tablets, and smartphones',
+    
     'printers, scanners, and projectors',
     'routers, switches, and hubs',
+    'computers, tablets, and smartphones',
     'televisions, radios, and cameras'
   ],
   correctAnswer: 'computers, tablets, and smartphones',
@@ -703,8 +732,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which reason explains that consumers feel valued when they interact with businesses?',
   choices: [
-    'Customers enjoy being heard',
+    
     'Ecommerce is on the Rise',
+    'Customers enjoy being heard',
     'Acquiring new customers is costly',
     'Retail competition increases'
   ],
@@ -717,9 +747,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which reason explains that keeping customers leads to continued business?',
   choices: [
-    'Building relationships increases customer retention',
+    
     'Ecommerce is on the Rise',
     'Product innovation increases',
+    'Building relationships increases customer retention',
     'Retail expansion increases'
   ],
   correctAnswer: 'Building relationships increases customer retention',
@@ -731,10 +762,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which statement describes the cost of gaining new customers?',
   choices: [
-    'Acquiring new customers is costly',
+    
     'Retaining customers is costly',
     'Manufacturing is costly',
-    'Marketing is costly'
+    'Marketing is costly', 
+    'Acquiring new customers is costly'
   ],
   correctAnswer: 'Acquiring new customers is costly',
   explanation: 'The lecture states acquiring new customers is costly.'
@@ -745,8 +777,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What helps reduce risk and ensure safe customer information?',
   choices: [
-    'Identity and access management resources',
+    
     'Inventory management',
+    'Identity and access management resources',
     'Retail marketing',
     'Product delivery'
   ],
@@ -759,9 +792,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which security method is mentioned to ensure safe customer information?',
   choices: [
-    'multi-factor authentication',
+    
     'password reuse',
     'offline access',
+    'multi-factor authentication',
     'paper records'
   ],
   correctAnswer: 'multi-factor authentication',
@@ -773,9 +807,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which tools help businesses build relationships and engage customers?',
   choices: [
-    'quizzes and surveys',
+    
     'manual advertising',
     'product storage',
+    'quizzes and surveys',
     'offline distribution'
   ],
   correctAnswer: 'quizzes and surveys',
@@ -787,8 +822,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which method validates customer opinions and increases engagement?',
   choices: [
-    'Post-purchase surveys or emails',
+    
     'Offline promotions',
+    'Post-purchase surveys or emails',
     'Retail inventory checks',
     'Distribution channels'
   ],
@@ -801,9 +837,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which marketing method encourages customers to talk about your brand?',
   choices: [
-    'guerrilla marketing campaigns',
+    
     'inventory marketing',
     'supply marketing',
+    'guerrilla marketing campaigns', 
     'offline distribution'
   ],
   correctAnswer: 'guerrilla marketing campaigns',
@@ -815,9 +852,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What is considered a powerful tool for increasing brand recognition?',
   choices: [
-    'Word-of-mouth',
+    
     'Retail distribution',
     'Warehouse delivery',
+    'Word-of-mouth',
     'Product storage'
   ],
   correctAnswer: 'Word-of-mouth',
@@ -829,8 +867,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which action is the highest revenue driver for businesses?',
   choices: [
-    'Retaining customers',
+    
     'Acquiring customers',
+    'Retaining customers',
     'Product innovation',
     'Paid promotion'
   ],
@@ -857,10 +896,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which of the following is a type of intermediary?',
   choices: [
-    'Brokers and Agents',
+    
     'Manufacturers',
     'Consumers',
-    'Customers'
+    'Customers', 
+    'Brokers and Agents'
   ],
   correctAnswer: 'Brokers and Agents',
   explanation: 'Brokers and agents are types of intermediaries.'
@@ -871,9 +911,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which intermediary buys goods in bulk and resells them to retailers?',
   choices: [
-    'Wholesalers and Resellers',
+    
     'Retailers',
     'Agents',
+    'Wholesalers and Resellers',
     'Customers'
   ],
   correctAnswer: 'Wholesalers and Resellers',
@@ -885,9 +926,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which intermediary distributes products across various locations?',
   choices: [
-    'Distributors',
+    
     'Retailers',
     'Agents',
+    'Distributors',
     'Customers'
   ],
   correctAnswer: 'Distributors',
@@ -899,8 +941,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which intermediary sells goods to customers in small quantities?',
   choices: [
-    'Retailers',
+    
     'Wholesalers',
+    'Retailers',
     'Distributors',
     'Agents'
   ],
@@ -913,9 +956,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What is an E-auction?',
   choices: [
-    'A real-time online platform for buying and selling products and services',
+    
     'A retail store system',
     'A warehouse distribution system',
+    'A real-time online platform for buying and selling products and services',
     'A physical market system'
   ],
   correctAnswer: 'A real-time online platform for buying and selling products and services',
@@ -927,8 +971,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'In an e-auction, who wins the product or service?',
   choices: [
-    'the highest bidder',
+    
     'the lowest bidder',
+    'the highest bidder',
     'the first bidder',
     'the last bidder'
   ],
@@ -941,9 +986,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which is the most popular type of e-auction?',
   choices: [
-    'online auction',
+    
     'retail auction',
     'offline auction',
+    'online auction',
     'manual auction'
   ],
   correctAnswer: 'online auction',
@@ -955,8 +1001,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which auction allows buyers to post requirements and sellers compete to offer the best price?',
   choices: [
-    'reverse auctions',
+    
     'sealed-bid auctions',
+    'reverse auctions',
     'Dutch auctions',
     'online auctions'
   ],
@@ -969,9 +1016,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which auction involves buyers submitting private bids to an auctioneer?',
   choices: [
-    'sealed-bid auctions',
+    
     'reverse auctions',
     'Dutch auctions',
+    'sealed-bid auctions',
     'online auctions'
   ],
   correctAnswer: 'sealed-bid auctions',
@@ -983,10 +1031,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which auction starts with a high price that is lowered until a buyer accepts the price?',
   choices: [
-    'Dutch auctions',
+    
     'reverse auctions',
     'sealed-bid auctions',
-    'online auctions'
+    'online auctions',
+    'Dutch auctions'
   ],
   correctAnswer: 'Dutch auctions',
   explanation: 'Dutch auctions lower the price until a buyer accepts.'
@@ -1062,18 +1111,18 @@ export const questionSets = [
 {
   id: 87,
   type: 'multiple-choice',
-  question: 'Acquiring new customers is costly.',
+  question: 'Acquiring new customers is not costly.',
   choices: ['True', 'False'],
-  correctAnswer: 'True',
+  correctAnswer: 'False',
   explanation: 'The lecture states acquiring new customers is costly.'
 },
 
 {
   id: 88,
   type: 'multiple-choice',
-  question: 'E-auction is a real-time online platform for buying and selling products and services.',
+  question: 'E-commerce is a real-time online platform for buying and selling products and services.',
   choices: ['True', 'False'],
-  correctAnswer: 'True',
+  correctAnswer: 'False',
   explanation: 'This is the definition of E-auction.'
 },
 {
@@ -1081,8 +1130,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What provides a perfect marketplace where customers access the website of ecommerce vendors?',
   choices: [
-    'Internet',
+    
     'Intranet',
+    'Internet',
     'Extranet',
     'Blogging'
   ],
@@ -1095,10 +1145,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Where do customers access the website of ecommerce vendors to order products online?',
   choices: [
-    'Internet',
+    
     'Intranet',
     'Extranet',
-    'Cloud'
+    'Cloud', 
+    'Internet',
   ],
   correctAnswer: 'Internet',
   explanation: 'Customers access ecommerce vendor websites through the Internet.'
@@ -1109,10 +1160,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What is a private network to access information owned by a business or entity?',
   choices: [
-    'Intranet',
+    
     'Internet',
     'Extranet',
-    'Blog'
+    'Blog', 
+    'Intranet', 
   ],
   correctAnswer: 'Intranet',
   explanation: 'An intranet is a private network to access information owned by a business or other entity.'
@@ -1123,8 +1175,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Who is granted access to information in an intranet?',
   choices: [
-    'employees',
+    
     'customers',
+    'employees',
     'suppliers',
     'public users'
   ],
@@ -1137,9 +1190,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'A modern intranet is described as:',
   choices: [
-    'cloud-based, user-friendly, and easily accessible',
+    
     'offline and manual',
     'public and open',
+    'cloud-based, user-friendly, and easily accessible',
     'hardware-based only'
   ],
   correctAnswer: 'cloud-based, user-friendly, and easily accessible',
@@ -1151,8 +1205,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which advantage of intranet focuses on communication inside the organization?',
   choices: [
-    'Improving Internal Communications',
+    
     'Authentication',
+    'Improving Internal Communications',
     'Data security',
     'Flexibility'
   ],
@@ -1165,10 +1220,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which advantage of intranet helps manage documents effectively?',
   choices: [
-    'Better Document Control',
+    
     'Faster communication',
     'Cost reduction',
-    'Authentication'
+    'Authentication', 
+    'Better Document Control', 
   ],
   correctAnswer: 'Better Document Control',
   explanation: 'Better Document Control is a main advantage of intranet.'
@@ -1179,9 +1235,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which advantage of intranet focuses on sharing information within the organization?',
   choices: [
-    'Improved Information Sharing',
+    
     'Faster communication',
     'Authentication',
+    'Improved Information Sharing',
     'Cost reduction'
   ],
   correctAnswer: 'Improved Information Sharing',
@@ -1193,8 +1250,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which network is available only within an organization?',
   choices: [
-    'Intranet',
+    
     'Internet',
+    'Intranet',
     'Extranet',
     'Blog'
   ],
@@ -1207,8 +1265,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which network is available for both internal and external members?',
   choices: [
-    'Extranet',
+    
     'Internet',
+    'Extranet',
     'Intranet',
     'Local network'
   ],
@@ -1221,9 +1280,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which feature of extranet offers a secure platform to share confidential data?',
   choices: [
-    'Data security',
+    
     'Flexibility',
     'Cost',
+    'Data security',
     'Communication'
   ],
   correctAnswer: 'Data security',
@@ -1235,9 +1295,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which feature of extranet enhances communication between organizations?',
   choices: [
-    'Faster communication',
+    
     'Authentication',
     'Cost',
+    'Faster communication',
     'Security'
   ],
   correctAnswer: 'Faster communication',
@@ -1249,10 +1310,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which feature provides a flexible and scalable environment for everyone involved?',
   choices: [
-    'Flexibility',
+    
     'Authentication',
     'Cost',
     'Communication'
+    'Flexibility',
   ],
   correctAnswer: 'Flexibility',
   explanation: 'Flexibility increases productivity of the organization.'
