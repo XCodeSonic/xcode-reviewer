@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xcode-reviewer/static/css/main.87e28da4.css",
-    "main.js": "/xcode-reviewer/static/js/main.541c81c9.js",
+    "main.js": "/xcode-reviewer/static/js/main.fb734e3d.js",
     "static/js/453.2a684bb4.chunk.js": "/xcode-reviewer/static/js/453.2a684bb4.chunk.js",
     "static/media/11.png": "/xcode-reviewer/static/media/11.ecaac76e8b7f0de86677.png",
     "static/media/1.png": "/xcode-reviewer/static/media/1.9e3eb3ce432ba447e9b8.png",
@@ -20,11 +20,11 @@
     "static/media/6.png": "/xcode-reviewer/static/media/6.fee0bf1fa427b6b97857.png",
     "index.html": "/xcode-reviewer/index.html",
     "main.87e28da4.css.map": "/xcode-reviewer/static/css/main.87e28da4.css.map",
-    "main.541c81c9.js.map": "/xcode-reviewer/static/js/main.541c81c9.js.map",
+    "main.fb734e3d.js.map": "/xcode-reviewer/static/js/main.fb734e3d.js.map",
     "453.2a684bb4.chunk.js.map": "/xcode-reviewer/static/js/453.2a684bb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87e28da4.css",
-    "static/js/main.541c81c9.js"
+    "static/js/main.fb734e3d.js"
   ]
 }
