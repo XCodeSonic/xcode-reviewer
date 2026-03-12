@@ -1339,9 +1339,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which feature provides mechanisms like username and password?',
   choices: [
-    'Authentication',
+
     'Communication',
     'Flexibility',
+        'Authentication',
     'Cost'
   ],
   correctAnswer: 'Authentication',
@@ -1353,9 +1354,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What ensures that only authorized users can access the network?',
   choices: [
-    'Authentication',
+    
     'Flexibility',
     'Cost',
+    'Authentication',
     'Communication'
   ],
   correctAnswer: 'Authentication',
@@ -1367,9 +1369,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What is an important aspect of e-commerce that helps boost sales and increase customer engagement?',
   choices: [
-    'Blogging',
+    
     'Networking',
     'Programming',
+    'Blogging',
     'Manufacturing'
   ],
   correctAnswer: 'Blogging',
@@ -1381,9 +1384,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What can drive traffic to your e-commerce site and build brand awareness?',
   choices: [
-    'engaging and relevant blog content',
+    
     'product storage',
     'inventory tracking',
+    'engaging and relevant blog content',
     'offline advertising'
   ],
   correctAnswer: 'engaging and relevant blog content',
@@ -1409,9 +1413,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What helps generate buzz and drive sales?',
   choices: [
-    'Promote your blog across all channels',
+    
     'Store products in warehouse',
     'Inventory tracking',
+    'Promote your blog across all channels',
     'Manufacturing campaigns'
   ],
   correctAnswer: 'Promote your blog across all channels',
@@ -1423,8 +1428,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What helps understand the impact of blog performance on business?',
   choices: [
-    'Monitor and adjust your strategy',
+    
     'Promote offline',
+    'Monitor and adjust your strategy',
     'Manufacture products',
     'Store inventory'
   ],
@@ -1437,10 +1443,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What uses blog content in email newsletters and social media posts?',
   choices: [
-    'Leverage blog content in other marketing materials',
+    
     'Promote offline campaigns',
     'Product manufacturing',
-    'Retail marketing'
+    'Retail marketing', 
+    'Leverage blog content in other marketing materials', 
   ],
   correctAnswer: 'Leverage blog content in other marketing materials',
   explanation: 'Blog content can be used in other marketing materials.'
@@ -1451,10 +1458,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What can increase blog visibility and traffic?',
   choices: [
-    'social media, email marketing, and paid advertising',
+    
     'inventory systems',
     'warehouse storage',
-    'manufacturing channels'
+    'manufacturing channels', 
+    'social media, email marketing, and paid advertising', 
   ],
   correctAnswer: 'social media, email marketing, and paid advertising',
   explanation: 'These marketing channels increase blog visibility and traffic.'
@@ -1512,18 +1520,18 @@ export const questionSets = [
 {
   id: 118,
   type: 'multiple-choice',
-  question: 'An intranet is a private network to access information.',
+  question: 'An internet is a private network to access information.',
   choices: ['True', 'False'],
-  correctAnswer: 'True',
+  correctAnswer: 'False',
   explanation: 'Intranet is a private network.'
 },
 
 {
   id: 119,
   type: 'multiple-choice',
-  question: 'Extranet is available for both internal and external members.',
+  question: 'Extranet is not available for both internal and external members.',
   choices: ['True', 'False'],
-  correctAnswer: 'True',
+  correctAnswer: 'False',
   explanation: 'Extranet allows internal and external access.'
 },
 
@@ -1539,9 +1547,9 @@ export const questionSets = [
 {
   id: 121,
   type: 'multiple-choice',
-  question: 'Authentication allows only authorized users to access the network.',
+  question: 'Authentication allows all users to access the network.',
   choices: ['True', 'False'],
-  correctAnswer: 'True',
+  correctAnswer: 'False',
   explanation: 'Authentication ensures only authorized users can access the network.'
 },
 {
@@ -1549,10 +1557,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What is Electronic retailing (E-tailing)?',
   choices: [
-    'The sale of goods and services through the internet',
+    
     'Selling products only in physical stores',
     'Manufacturing products for distribution',
-    'Advertising products through television'
+    'Advertising products through television', 
+    'The sale of goods and services through the internet'
   ],
   correctAnswer: 'The sale of goods and services through the internet',
   explanation: 'Electronic retailing (E-tailing) is the sale of goods and services through the internet.'
@@ -1563,9 +1572,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'E-tailing can include which types of sales?',
   choices: [
-    'business-to-business (B2B) and business-to-consumer (B2C)',
+    
     'consumer-to-consumer (C2C) only',
     'government-to-business (G2B)',
+    'business-to-business (B2B) and business-to-consumer (B2C)',
     'offline retail sales'
   ],
   correctAnswer: 'business-to-business (B2B) and business-to-consumer (B2C)',
@@ -1577,10 +1587,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What is transforming commerce and making online sales more accessible?',
   choices: [
-    'New technologies and digital transformation opportunities',
+    
     'Traditional marketing',
     'Physical retail stores',
-    'Manual distribution'
+    'Manual distribution', 
+    'New technologies and digital transformation opportunities'
   ],
   correctAnswer: 'New technologies and digital transformation opportunities',
   explanation: 'New technologies and digital transformation opportunities are transforming commerce.'
@@ -1591,8 +1602,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What is another term for channel conflict?',
   choices: [
-    'channel cannibalization',
+    
     'market competition',
+    'channel cannibalization',
     'product distribution',
     'sales promotion'
   ],
@@ -1605,9 +1617,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Channel conflict can negatively impact which groups?',
   choices: [
-    'brands, manufacturers, and retailers',
+    
     'customers and suppliers',
     'employees and managers',
+    'brands, manufacturers, and retailers',
     'distributors and warehouses'
   ],
   correctAnswer: 'brands, manufacturers, and retailers',
@@ -1647,9 +1660,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which channel conflict occurs between partners at the same level of the chain?',
   choices: [
-    'Horizontal channel conflict',
+    
     'Vertical channel conflict',
     'Multi-channel conflict',
+    'Horizontal channel conflict',
     'Retail conflict'
   ],
   correctAnswer: 'Horizontal channel conflict',
@@ -1661,8 +1675,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which channel conflict occurs when two or more channels of the same manufacturer compete in the same market?',
   choices: [
-    'Multi-channel conflict',
+    
     'Vertical channel conflict',
+    'Multi-channel conflict',
     'Horizontal channel conflict',
     'Distribution conflict'
   ],
@@ -1675,8 +1690,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which situation can lead to price wars and counterproductive competition?',
   choices: [
-    'Vertical channel conflict',
+    
     'Horizontal channel conflict',
+    'Vertical channel conflict',
     'Multi-channel conflict',
     'Customer conflict'
   ],
@@ -1717,8 +1733,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What enhances customer satisfaction, engagement, and conversion rates?',
   choices: [
-    'E-commerce personalization',
+    
     'Retail marketing',
+    'E-commerce personalization',
     'Product manufacturing',
     'Distribution channels'
   ],
@@ -1731,9 +1748,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What provides tailored content, product recommendations, and offers based on preferences and behavior?',
   choices: [
-    'E-commerce personalization',
+    
     'Traditional marketing',
     'Offline retailing',
+    'E-commerce personalization',
     'Inventory management'
   ],
   correctAnswer: 'E-commerce personalization',
@@ -1745,10 +1763,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which benefit of ecommerce personalization can increase conversion rates by up to 8%?',
   choices: [
-    'Increase conversion rates',
+    
     'Improved customer experience',
     'Higher average order value',
-    'Customer acquisition'
+    'Customer acquisition', 
+    'Increase conversion rates'
   ],
   correctAnswer: 'Increase conversion rates',
   explanation: 'Personalization can increase conversion rates by up to 8%.'
@@ -1759,10 +1778,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which benefit enhances business-customer relationships?',
   choices: [
-    'Improved customer experience',
+
     'Increase conversion rates',
     'Higher average order value',
-    'Inventory control'
+    'Inventory control', 
+        'Improved customer experience'
   ],
   correctAnswer: 'Improved customer experience',
   explanation: 'Personalized experiences enhance business-customer relationships.'
@@ -1773,9 +1793,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which benefit boosts AOV through personalized product recommendations and tailored discounts?',
   choices: [
-    'Higher average order value',
+    
     'Increase conversion rates',
     'Customer acquisition',
+    'Higher average order value',
     'Inventory management'
   ],
   correctAnswer: 'Higher average order value',
@@ -1787,10 +1808,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'What technique enables cross-selling and upselling of complementary or higher-value items?',
   choices: [
-    'Ecommerce personalization',
+    
     'Offline marketing',
     'Inventory tracking',
-    'Manual promotion'
+    'Manual promotion', 
+    'Ecommerce personalization'
   ],
   correctAnswer: 'Ecommerce personalization',
   explanation: 'Personalization enables cross-selling and upselling.'
@@ -1800,7 +1822,7 @@ export const questionSets = [
   id: 140,
   type: 'short-answer',
   question: 'The sale of goods and services through the internet is called ______.',
-  correctAnswer: 'Electronic retailing (E-tailing)',
+  correctAnswer: 'E-tailing',
   explanation: 'Electronic retailing is the sale of goods and services through the internet.'
 },
 
@@ -1913,9 +1935,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which benefit ensures consistent customer growth and helps navigate revenue dips?',
   choices: [
-    'Long-term company health and stability',
+    
     'Foundation for scalability and growth',
     'Ability to edge out competition',
+    'Long-term company health and stability',
     'Operational and cost efficiency'
   ],
   correctAnswer: 'Long-term company health and stability',
@@ -1927,9 +1950,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which benefit helps businesses expand into new markets and adapt to changing market conditions?',
   choices: [
-    'Foundation for scalability and growth',
+    
     'Operational and cost efficiency',
     'Customer retention',
+    'Foundation for scalability and growth',
     'Inventory control'
   ],
   correctAnswer: 'Foundation for scalability and growth',
@@ -1941,9 +1965,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which benefit allows businesses to stand out from competitors?',
   choices: [
-    'Ability to edge out competition',
+    
     'Operational efficiency',
     'Product distribution',
+    'Ability to edge out competition',
     'Customer acquisition'
   ],
   correctAnswer: 'Ability to edge out competition',
@@ -1955,9 +1980,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which benefit focuses on optimizing inventory management, supply chain processes, and order fulfillment?',
   choices: [
-    'Operational and cost efficiency',
+    
     'Long-term company health',
     'Scalability and growth',
+    'Operational and cost efficiency',
     'Competitive advantage'
   ],
   correctAnswer: 'Operational and cost efficiency',
@@ -1969,9 +1995,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'How many steps are outlined for creating an ecommerce strategy plan?',
   choices: [
-    'Six',
+    
     'Four',
     'Five',
+    'Six',
     'Seven'
   ],
   correctAnswer: 'Six',
@@ -1983,9 +2010,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which step involves understanding buyer personas such as location, gender, age, and interests?',
   choices: [
-    'Get to know your ideal buyer',
+    
     'Define your goals and objectives',
     'Get to know your competitors',
+    'Get to know your ideal buyer',
     'Map out the systems and tools you need'
   ],
   correctAnswer: 'Get to know your ideal buyer',
@@ -2011,10 +2039,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which step involves establishing key performance indicators (KPIs)?',
   choices: [
-    'Define your goals and objectives',
+    
     'Get to know your competitors',
     'Develop your value proposition',
-    'Map systems and tools'
+    'Map systems and tools', 
+    'Define your goals and objectives', 
   ],
   correctAnswer: 'Define your goals and objectives',
   explanation: 'KPIs help measure ecommerce store success.'
@@ -2025,10 +2054,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which step involves analyzing competitors to identify trends and opportunities?',
   choices: [
-    'Get to know your competitors',
+    
     'Define your goals',
     'Know your buyer',
-    'Map tools'
+    'Map tools', 
+    'Get to know your competitors', 
   ],
   correctAnswer: 'Get to know your competitors',
   explanation: 'Analyzing competitors provides insights into industry trends.'
@@ -2053,9 +2083,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which step involves defining the tech stack to attract customers and fulfill orders?',
   choices: [
-    'Map out the systems and tools you need',
+    
     'Know your buyer',
     'Analyze competitors',
+    'Map out the systems and tools you need',
     'Define goals'
   ],
   correctAnswer: 'Map out the systems and tools you need',
@@ -2067,9 +2098,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which tool includes product pages, rich visuals, and a smooth checkout process?',
   choices: [
-    'Online store',
+
     'Supply chain management',
     'Payment options',
+        'Online store',
     'Customization'
   ],
   correctAnswer: 'Online store',
@@ -2081,8 +2113,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which tool enables buying through social media channels and marketplaces?',
   choices: [
-    'Omnichannel selling',
+    
     'Payment options',
+    'Omnichannel selling',
     'Customization',
     'Supply chain management'
   ],
@@ -2095,9 +2128,10 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which tool allows customers to pay securely using different providers or digital wallets?',
   choices: [
-    'Payment options',
+    
     'Customization',
     'Online store',
+    'Payment options',
     'Supply chain management'
   ],
   correctAnswer: 'Payment options',
@@ -2109,8 +2143,9 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which system monitors inventory, fulfills orders, and coordinates shipping and returns?',
   choices: [
-    'Supply chain management',
+    
     'Customization',
+    'Supply chain management',
     'Online store',
     'Payment options'
   ],
@@ -2123,10 +2158,11 @@ export const questionSets = [
   type: 'multiple-choice',
   question: 'Which system launches custom campaigns and personalizes checkout?',
   choices: [
-    'Customization',
+    
     'Online store',
     'Payment options',
-    'Supply chain management'
+    'Supply chain management', 
+    'Customization'
   ],
   correctAnswer: 'Customization',
   explanation: 'Customization personalizes campaigns and checkout.'
@@ -2193,9 +2229,9 @@ export const questionSets = [
 {
   id: 175,
   type: 'multiple-choice',
-  question: 'Competitor research is part of ecommerce strategy.',
+  question: 'Competitor research is not a part of ecommerce strategy.',
   choices: ['True', 'False'],
-  correctAnswer: 'True',
+  correctAnswer: 'False',
   explanation: 'Competitor research helps businesses stand out.'
 },
 
